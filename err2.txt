@@ -1,0 +1,31 @@
+Loading composer repositories with package information
+Updating dependencies
+Your requirements could not be resolved to an installable set of packages.
+
+  Problem 1
+    - Root composer.json requires maatwebsite/excel ^3.1.26 -> satisfiable by maatwebsite/excel[3.1.26, ..., 3.1.x-dev].
+    - maatwebsite/excel 3.1.26 requires phpoffice/phpspreadsheet ^1.15 -> satisfiable by phpoffice/phpspreadsheet[1.30.0, 1.30.1, 1.30.2, 1.30.x-dev].
+    - maatwebsite/excel 3.1.27 requires phpoffice/phpspreadsheet ^1.16 -> satisfiable by phpoffice/phpspreadsheet[1.30.0, 1.30.1, 1.30.2, 1.30.x-dev].
+    - maatwebsite/excel[3.1.28, ..., 3.1.30] require phpoffice/phpspreadsheet 1.16.* -> found phpoffice/phpspreadsheet[1.16.0] but these were not loaded, because they are affected by security advisories ("PKSA-64jn-3d9t-gncx", "PKSA-8b16-mcgz-h4cz", "PKSA-s99r-9yxm-hjvt", "PKSA-7jd6-nb49-bz4v", "PKSA-nm34-xhtz-ww9p", "PKSA-4ckb-wpj6-c29d", "PKSA-ybqb-vyrq-8pdt", "PKSA-285y-y5bt-kvd9", "PKSA-jw5c-q9nd-tzj9", "PKSA-bcnb-9tc9-bjb8", "PKSA-gst3-cdk3-bpqt", "PKSA-dbrb-pvhs-h3st", "PKSA-mkg2-1wyw-57y7", "PKSA-p1pj-q951-6f1x", "PKSA-7f9v-sb8k-krfb", "PKSA-xk3k-rd1m-pxmg", "PKSA-dvbq-8ft2-ngrw", "PKSA-xp7t-fbrb-qjv4", "PKSA-m4hk-rk8p-4t5p"). Go to https://packagist.org/security-advisories/ to find advisory details. To ignore the advisories, add them to the audit "ignore" config. To turn the feature off entirely, you can set "block-insecure" to false in your "audit" config.
+    - maatwebsite/excel[3.1.31, ..., 3.1.56] require phpoffice/phpspreadsheet ^1.18 -> satisfiable by phpoffice/phpspreadsheet[1.30.0, 1.30.1, 1.30.2, 1.30.x-dev].
+    - maatwebsite/excel[3.1.57, ..., 3.1.58] require phpoffice/phpspreadsheet ^1.29.1 -> satisfiable by phpoffice/phpspreadsheet[1.30.0, 1.30.1, 1.30.2, 1.30.x-dev].
+    - maatwebsite/excel 3.1.59 requires phpoffice/phpspreadsheet ^1.29.2 -> satisfiable by phpoffice/phpspreadsheet[1.30.0, 1.30.1, 1.30.2, 1.30.x-dev].
+    - maatwebsite/excel[3.1.60, ..., 3.1.61] require phpoffice/phpspreadsheet ^1.29.4 -> satisfiable by phpoffice/phpspreadsheet[1.30.0, 1.30.1, 1.30.2, 1.30.x-dev].
+    - maatwebsite/excel 3.1.62 requires phpoffice/phpspreadsheet ^1.29.7 -> satisfiable by phpoffice/phpspreadsheet[1.30.0, 1.30.1, 1.30.2, 1.30.x-dev].
+    - maatwebsite/excel[3.1.63, ..., 3.1.64] require phpoffice/phpspreadsheet ^1.29.9 -> satisfiable by phpoffice/phpspreadsheet[1.30.0, 1.30.1, 1.30.2, 1.30.x-dev].
+    - maatwebsite/excel[3.1.65, ..., 3.1.66] require phpoffice/phpspreadsheet ^1.29.12 -> satisfiable by phpoffice/phpspreadsheet[1.30.0, 1.30.1, 1.30.2, 1.30.x-dev].
+    - maatwebsite/excel[3.1.67, ..., 3.1.x-dev] require phpoffice/phpspreadsheet ^1.30.0 -> satisfiable by phpoffice/phpspreadsheet[1.30.0, 1.30.1, 1.30.2, 1.30.x-dev].
+    - phpoffice/phpspreadsheet[1.30.0, ..., 1.30.x-dev] require ext-zip * -> it is missing from your system. Install or enable PHP's zip extension.
+
+      Alternatively you can require one of these packages that provide the extension (or parts of it):
+      Keep in mind that the suggestions are automated and may not be valid or safe to use
+      - pecl/zip A zip management extension
+      - badpixxel/paddock Just The Paddock Project
+
+
+To enable extensions, verify that they are enabled in your .ini files:
+    - C:\xampp\php\php.ini
+You can also run `php --ini` in a terminal to see which files are used by PHP in CLI mode.
+Alternatively, you can run Composer with `--ignore-platform-req=ext-zip` to temporarily ignore these required extensions.
+
+Use the option --with-all-dependencies (-W) to allow upgrades, downgrades and removals for packages currently locked to specific versions.
