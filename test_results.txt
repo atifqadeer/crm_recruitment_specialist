@@ -1,0 +1,11 @@
+Warning: TTY mode is not supported on Windows platform.
+
+  [30;42;1m PASS [39;49;22m[39m Tests\Unit\ExampleTest[39m
+  [32;1m✓[39;22m[39m [2mbasic test[22m[39m
+
+  [30;42;1m PASS [39;49;22m[39m Tests\Feature\ExampleTest[39m
+  [32;1m✓[39;22m[39m [2mbasic test[22m[39m
+
+  [37;1mTests:  [39;22m[32;1m2 passed[39;22m
+  [37;1mTime:   [39;22m[39m1.03s[39m
+
